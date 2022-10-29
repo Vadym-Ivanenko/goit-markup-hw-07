@@ -8,10 +8,12 @@
 @import "./components/section";
 @import "./components/logo";
 
-@import "./layout/header";
+@import "./components/header";
 @import "./layout/hero";
 @import "./layout/benefits";
 @import "./layout/occupation";
 @import "./layout/team";
 @import "./layout/client";
-@import "./layout/footer";
+@import "./components/footer";
+@import "./layout/portfolio";
+@import "./layout/backdrop";
