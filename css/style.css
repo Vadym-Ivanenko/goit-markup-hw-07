@@ -111,7 +111,7 @@ body {
     text-decoration: none;
 }
 
-.logo>span {
+.logo__web {
     color: var(--accent-color);
 }
 
@@ -127,7 +127,7 @@ body {
 
 }
 
-.main-nav {
+.main-nav__container {
     display: flex;
 }
 
@@ -136,12 +136,12 @@ body {
     padding: 24px 0;
 }
 
-.main-list {
+.main-list__container {
     display: flex;
     padding: 0;
 }
 
-.contact-list {
+.contact-list__container {
     display: flex;
     margin-left: auto;
     padding: 0;
@@ -210,9 +210,7 @@ body {
 
 
 /*-------------------------------- HERO--------------------------- */
-.hero {
-    text-align: center;
-}
+
 
 .hero__wrapper {
     text-align: center;
@@ -267,7 +265,7 @@ body {
 }
 
 /* ---------------------------BENEFITS---------------------------- */
-.benefits-list {
+.benefits-list__container {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -310,7 +308,7 @@ body {
 }
 
 /* -----------------------OCCUPATION------------------- */
-.occupation {
+.occupation__container {
     text-align: center;
     padding-top: 0;
 }
@@ -319,7 +317,7 @@ body {
     position: relative;
 }
 
-.occupation-list {
+.occupation-list__container {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
@@ -351,13 +349,13 @@ body {
 
 /* -------------------------TEAM-------------------------- */
 
-.team {
+.team__container {
     text-align: center;
 
     background-color: var(--background-first);
 }
 
-.team-list {
+.team-list__container {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -393,7 +391,7 @@ body {
     color: var(--third-color);
 }
 
-.card-item {
+.card-item__container {
     display: flex;
     justify-content: center;
     margin-top: 16px;
@@ -432,7 +430,7 @@ body {
 }
 
 /* ----------------CLIENT -------------------*/
-.clients {
+.clients__container {
     background-color: var(--second-color);
 }
 
@@ -440,7 +438,7 @@ body {
     text-align: center;
 }
 
-.cliensts-list {
+.cliensts-list__container {
     display: flex;
     gap: 30px;
     margin-top: 50px;
