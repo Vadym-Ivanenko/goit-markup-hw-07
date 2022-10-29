@@ -1,0 +1,38 @@
+.occupation__container {
+  text-align: center;
+  padding-top: 0;
+}
+
+.occupation-list__item {
+  position: relative;
+}
+
+.occupation-list__container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-top: 50px;
+}
+
+.occupation-list__wrapper {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  top: 225px;
+
+  padding-top: 27px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.occupation-list__descr {
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.88;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--second-color);
+}

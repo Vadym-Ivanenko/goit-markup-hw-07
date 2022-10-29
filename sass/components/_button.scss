@@ -1,0 +1,13 @@
+.btn {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--accent-color);
+  color: var(--second-color);
+}

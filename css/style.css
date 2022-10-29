@@ -20,20 +20,8 @@
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
-}
 
-img {
-    display: block;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -53,14 +41,6 @@ body {
     margin: 0 auto;
 }
 
-.list {
-    list-style: none;
-}
-
-
-.link {
-    text-decoration: none;
-}
 
 .link:hover,
 .link:focus {
