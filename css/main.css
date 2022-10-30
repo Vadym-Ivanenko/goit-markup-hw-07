@@ -203,7 +203,6 @@ img {
   background-position: center;
   background-size: cover;
 }
-
 .hero__title {
   margin: 0 auto;
   max-width: 696px;
@@ -214,7 +213,6 @@ img {
   text-transform: uppercase;
   color: var(--second-color);
 }
-
 .hero__btn {
   display: inline-block;
   margin-top: 30px;
@@ -228,9 +226,7 @@ img {
   background-color: var(--accent-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.hero__btn:hover,
-.hero__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--active-btn-color);
 }
 
@@ -239,11 +235,9 @@ img {
   justify-content: space-between;
   padding: 0;
 }
-
 .benefits-list__item {
   max-width: 270px;
 }
-
 .benefits-list__wrapper {
   display: flex;
   align-items: center;
@@ -253,7 +247,6 @@ img {
   background-color: var(--background-first);
   border-radius: 4px;
 }
-
 .benefits-list__subtitle {
   margin-top: 30px;
   font-weight: 700;
@@ -262,7 +255,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .benefits-list__descr {
   margin-top: 10px;
   font-size: 14px;
@@ -279,14 +271,12 @@ img {
 .occupation-list__item {
   position: relative;
 }
-
 .occupation-list__container {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
   margin-top: 50px;
 }
-
 .occupation-list__wrapper {
   position: absolute;
   width: 370px;
@@ -295,7 +285,6 @@ img {
   padding-top: 27px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-
 .occupation-list__descr {
   text-align: center;
   font-weight: 700;
@@ -317,7 +306,6 @@ img {
   margin-top: 50px;
   padding: 0;
 }
-
 .team-list__item {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -328,14 +316,12 @@ img {
 .card {
   padding: 30px 0;
 }
-
 .card__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
 .card__descr {
   margin-top: 10px;
   font-size: 16px;
@@ -350,13 +336,14 @@ img {
   margin-top: 16px;
   padding: 0;
 }
-
 .card-item__list {
   margin-right: 10px;
   width: 44px;
   height: 44px;
 }
-
+.card-item__list:last-child {
+  margin-right: 0;
+}
 .card-item__link {
   display: flex;
   align-items: center;
@@ -368,37 +355,28 @@ img {
   border-radius: 50%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.card-item__link:hover,
-.card-item__link:focus {
+.card-item__link:hover, .card-item__link:focus {
   fill: var(--second-color);
   background-color: var(--accent-color);
-}
-
-.card-item__list:last-child {
-  margin-right: 0;
 }
 
 .clients__container {
   background-color: var(--second-color);
 }
-
 .clients__title {
   text-align: center;
 }
 
-.cliensts-list__container {
+.clients-list__container {
   display: flex;
   gap: 30px;
   margin-top: 50px;
   padding: 0;
 }
-
 .clients-list__item {
   height: 92px;
   width: 170px;
 }
-
 .clients-list__link {
   display: flex;
   align-items: center;
@@ -410,9 +388,7 @@ img {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients-list__link:hover,
-.clients-list__link:focus {
+.clients-list__link:hover, .clients-list__link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -583,7 +559,6 @@ img {
   gap: 8px;
   padding: 0;
 }
-
 .nav-list__btn {
   padding: 6px 22px;
   border: none;
@@ -594,15 +569,9 @@ img {
   background-color: var(--background-first);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav-list__btn:hover,
-.nav-list__btn:focus {
+.nav-list__btn:hover, .nav-list__btn:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.portfolio-card__item {
-  background: var(--second-color);
 }
 
 .portfolio-card {
@@ -610,6 +579,30 @@ img {
   flex-wrap: wrap;
   margin-top: 50px;
   padding-left: 0;
+}
+.portfolio-card__item {
+  margin-right: 30px;
+  margin-top: 30px;
+  background: var(--second-color);
+}
+.portfolio-card__item:nth-child(-n+3) {
+  margin-top: 0;
+}
+.portfolio-card__item:nth-child(3n+3) {
+  margin-right: 0;
+}
+.portfolio-card__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-card__link:hover, .portfolio-card__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-card__link:hover .card-hidden,
+.portfolio-card__link :focus .card-hidden {
+  transform: translateY(0);
 }
 
 .card-data {
@@ -627,58 +620,25 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.card-hidden > .card-hidden__text {
+.card-hidden__text {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
 
-.portfolio-unit__link:hover .card-hidden,
-.portfolio-unit__link:focus .card-hidden {
-  transform: translateY(0);
-}
-
-.portfolio-card__item {
-  margin-right: 30px;
-  margin-top: 30px;
-}
-
-.portfolio-card__item:nth-child(-n+3) {
-  margin-top: 0;
-}
-
-.portfolio-card__item:nth-child(3n+3) {
-  margin-right: 0;
-}
-
-.portfolio-unit-wrap {
+.portfolio-unit__wrap {
   padding: 20px 24px;
   border: 1px solid var(--border-color);
   border-top: none;
 }
-
-.portfolio-unit__link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-unit__link:hover,
-.portfolio-unit__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.portfolio-capture {
+.portfolio-unit__capture {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
-.portfolio-descr {
+.portfolio-unit__descr {
   margin-top: 4px;
 }
 
