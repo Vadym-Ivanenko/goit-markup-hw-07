@@ -18,9 +18,9 @@ img {
 
 .link {
   text-decoration: none;
-}
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
