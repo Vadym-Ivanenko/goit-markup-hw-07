@@ -32,23 +32,8 @@
   }
 
   &__btn {
-    display: inline-block;
     margin-top: 30px;
     padding: 10px 32px;
     border: none;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-
-    color: var(--second-color);
-    background-color: var(--accent-color);
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-      background-color: var(--active-btn-color);
-    }
   }
 }
